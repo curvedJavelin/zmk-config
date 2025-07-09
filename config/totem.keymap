@@ -47,7 +47,14 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        studio_unlock {
+            bindings = <&studio_unlock>;
+            key-positions = <34 35>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
